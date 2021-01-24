@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.atSCUT.dao.UserDao">
+    <select id="findByName" parameterType="String" resultType="user">
+        SELECT * from `user` WHERE `username`=#{username}
+    </select>
+
+    <update id="addUser" parameterType="user">
+        INSERT INTO `user` (`username`, `gender`, `password`, `email`, `register_time`) VALUES(#{username}, #{gender}, #{password},
+         #{email}, #{register_time})
+    </update>
+
+</mapper>

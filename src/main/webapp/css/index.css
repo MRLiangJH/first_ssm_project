@@ -1,0 +1,177 @@
+html, head, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+div, ul, li, h2, span, p {
+    padding: 0;
+    margin: 0;
+}
+
+.warpper {
+    width: 100%;
+    height: 350px;
+    background: #2b669a;
+}
+
+.wwwqirecom {
+    width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.indexDisplay {
+    width: 1050px;
+    height: 340px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    float: left;
+}
+
+.indexDisplay ul li img {
+    width: 200px;
+    height: 300px;
+    border: 2px #2b669a solid;
+}
+
+.indexDisplay ul li a.indexDisplay-slider-img {
+    display: block;
+    width: 205px;
+    border: 3px #2b669a solid;
+    float: left;
+}
+
+.indexDisplay-slider-intro {
+    height: 310px;
+    width: 815px;
+    font-size: 16px;
+    font-family: "Microsoft Yahei", sans-serif;
+    float: left;
+    padding-left: 15px;
+}
+
+.indexDisplay-slider-title {
+    line-height: 30px;
+    padding: 10px 0 14px 0;
+}
+
+.indexDisplay-slider-title h2 a {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: normal;
+    font-family: "Microsoft Yahei", serif;
+}
+
+.indexDisplay-slider-title h2 a:hover {
+    text-decoration: underline;
+}
+
+.indexDisplay-slider-title span {
+    color: #FF6600;
+    font-size: 14px;
+}
+
+.indexDisplay-slider-info li, .indexDisplay-slider-desc {
+    font-size: 14px;
+    color: #999999;
+}
+
+.indexDisplay-slider-info li {
+    width: 400px;
+    height: 25px;
+    overflow: hidden;
+    float: left;
+}
+
+.indexDisplay-slider-info li span, .indexDisplay-slider-desc span {
+    color: #CCCCCC;
+}
+
+.indexDisplay-slider-info li.long{
+    width: 800px;
+    margin-bottom: 5px;
+}
+
+.indexDisplay-slider-desc {
+    display: block;
+    height: 96px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.indexDisplay-slider-intro .indexDisplay-slider-play {
+    color: #FFFFFF;
+    display: block;
+    width: 136px;
+    height: 29px;
+    background:  no-repeat;
+}
+
+.indexDisplay-slider-intro .indexDisplay-slider-play:hover {
+    background-position: 0 -30px;
+}
+
+
+.num {
+    width: 320px;
+    height: 320px;
+    background: #2b669a;
+    padding: 10px;
+    margin-top: 15px;
+    float: left;
+    overflow: hidden;
+}
+
+.num ul {
+    width: 300px;
+}
+
+.num li {
+    float: left;
+    margin: 0 5px 5px 0px;
+}
+
+.num .num>li .num>li>a {
+    display: block;
+    border: 2px #2b669a solid;
+    padding: 1px;
+}
+
+.num li img {
+    width: 85px;
+    height: 95px;
+}
+
+.num li.on a {
+    border: 2px #FF6600 solid;
+}
+
+.middle-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.index-new-list {
+    margin-bottom: 10px;
+}
+
+.imgbox {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 145%;
+    display: block;
+}
+
+.imgbox img {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+.img-rounded {
+    border-radius: 6px;
+}

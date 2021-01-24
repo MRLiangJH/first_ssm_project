@@ -1,0 +1,39 @@
+body{
+    background-image: url(../img/register_background.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.login {
+    color: red;
+    font-size: large;
+    float: right;
+}
+
+.container {
+    height: 100%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.form-control {
+    margin-right: 15%;
+    width: 50%;
+}
+
+.code {
+    width: 25%;
+}
+
+.code_img {
+    width: 25%;
+    height: 42px;
+    border-radius: 3px;
+}
+
+.check_msg {
+    color: red;
+}
